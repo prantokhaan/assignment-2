@@ -235,4 +235,14 @@ body{
     height: 105px;
 }
 
-.social-icons ul li 
+.social-icons ul{
+    list-style-type: none;
+}
+
+.social-icons ul li{
+    display: inline-block;
+    text-align: center;
+}
+.social-icons ul li a{
+    color: #969BAB;
+}
