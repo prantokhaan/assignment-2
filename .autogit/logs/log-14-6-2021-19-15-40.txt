@@ -1,0 +1,30 @@
+-------------------- Auto-Git Log --------------------
+		Wed Jul 14 2021 19:15:40 GMT+0600 (Bangladesh Standard Time)
+------------------------------------------------------
+
+Modified files:
+* css/style.css
+* index.html
+
+
+Created files:
+* .autogit/autogit.json
+* .autogit/logs/log-14-6-2021-13-46-57.txt
+* .autogit/logs/log-14-6-2021-14-17-22.txt
+* .autogit/logs/log-14-6-2021-14-47-46.txt
+* .autogit/logs/log-14-6-2021-16-19-3.txt
+* .autogit/logs/log-14-6-2021-16-49-34.txt
+* .autogit/logs/log-14-6-2021-17-19-58.txt
+
+
+Deleted files:
+* .gitignore
+* Football.fig
+* Mobile.pdf
+* Mobile.png
+* Web.pdf
+* Web.png
+* css/responsive.css
+
+
+Renamed files:

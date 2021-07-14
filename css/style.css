@@ -264,23 +264,27 @@ body{
     font-weight: 400;
 }
 
-
 /* ------------------------------
         media queries
  ------------------------------*/
 
  /* mobile device */
  @media only screen and (max-width:688px){
+    body{
+        width: 100%;
+    }
     .header{
         display: none;
     }
     .right-left-margin{
         margin: 0;
     }
+    .header .nav-bar{
+        display: inline-block;
+    }
     .nav ul{
         display: none;
     }
-    
     .nav-bar .button a{
         display: none;
     }
@@ -392,4 +396,3 @@ body{
         height: 83px;
     }
 }
-
