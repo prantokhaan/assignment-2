@@ -1,0 +1,16 @@
+-------------------- Auto-Git Log --------------------
+		Wed Jul 14 2021 14:17:22 GMT+0600 (Bangladesh Standard Time)
+------------------------------------------------------
+
+Modified files:
+* css/style.css
+* index.html
+
+
+Created files:
+
+
+Deleted files:
+
+
+Renamed files:
