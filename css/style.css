@@ -12,6 +12,15 @@ body{
     margin-right: 116px;
     margin-left: 146px;
 }
+.sec-margin{
+    margin-top: 65px;
+}
+.sec-title{
+    font-size: 24px;
+    color: #2D25A0;
+    margin-bottom: 30px;
+    text-align: center;
+}
 @keyframes zoom{
     0%,100%{
         transform: scale(1);
@@ -98,9 +107,7 @@ body{
 }
 
 /* player section */
-.player-section{
-    margin-top: 65px;
-}
+
 .players{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -124,4 +131,70 @@ body{
 }
 .player p{
     font-size: 15px;
+}
+
+/* news section */
+.news{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 25px;
+    column-gap: 30px;
+    margin: 0 20px;
+}
+.single-news{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10px;
+    background-color: white;
+    box-shadow: 0px 0px 37px  gray;
+    border-left: 5px solid #2D25A0;
+    padding: 10px;
+}
+.thumbnail img{
+    width: 300px;
+    height: 180px;
+    border-radius: 5px;
+}
+.news-info{
+    display: block;
+    margin-top: -20px;
+}
+/* match section */
+.match-container{
+    margin-bottom: 20px;
+}
+.match{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border: 3px solid white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 37px  gray;
+    margin: 0 20px;
+}
+.club{
+    display: flex;
+    padding: 10px;
+}
+.club-1{
+    margin-left: 110px;
+}
+.club-name{
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.middle{
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+}
+.middle span{
+    padding: 10px;
+    color: white;
+    background-color: #2D25A0;
+    border-radius: 10px;
+}
+.club-logo img{
+    width: 100px;
+    height: 100px;
+    border-radius: 60%;
 }
