@@ -237,12 +237,29 @@ body{
 
 .social-icons ul{
     list-style-type: none;
+    text-align: center;
+    margin: 20px;
 }
 
 .social-icons ul li{
     display: inline-block;
-    text-align: center;
+    margin-right: 10px;
 }
 .social-icons ul li a{
-    color: #969BAB;
+    color: gray;
+}
+.social-icons ul li a i{
+    padding: 7px;
+    background-color: #969bab5d;
+    border-radius: 50%;
+}
+.social-icons ul li a:hover{
+    color: #2D25A0;
+}
+.copyright{
+    text-align: center;
+    margin-left: 30px;
+    margin-bottom: 55px;
+    font-size: 17px;
+    font-weight: 400;
 }
