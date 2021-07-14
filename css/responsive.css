@@ -1,0 +1,11 @@
+/* ------------------------------
+        media queries
+ ------------------------------*/
+
+ /* mobile device */
+ @media only screen and (max-width:688px){
+    .header{
+        background-color: #2D25A0;
+        width: 488px;
+    }
+}
