@@ -17,16 +17,13 @@
     .nav ul{
         display: none;
     }
-    .three-menu-bar{
-        display: flex;
+    
+    .nav-bar .button a{
+        display: none;
     }
-    .nav .three-menu-bar a{
-        margin-top: 30px;
-        width: 24px;
-        height: 24px;
-    }
-    .button a{
-        margin-top: 29px;
+    .home-section{
+        display: block;
+        margin-bottom: 0;
     }
     .home-title h1{
         font-size: 36px;
@@ -38,10 +35,15 @@
         margin-left: 19px;
         margin-bottom: 50px;
     }
+    .home-image{
+        margin-bottom: 0px;
+    }
     .home-image img{
         width: 329px;
         height: 259px;
-        margin: 0 50px 61px 50px;
+        margin-left: 50px;
+        margin-top: 20px;
+        margin-bottom: -20px;
         padding: 0;
     }
     .container{
@@ -50,5 +52,16 @@
     .players{
         grid-template-columns: repeat(1, 1fr);
         margin: 0;
+        column-gap: 0;
     }
+    .player{
+        padding: 30px;
+        margin: 0 30px ;
+    }
+    .player img{
+        width: 300px;
+        height: 256px;
+        text-align: center;
+    }
+    
 }

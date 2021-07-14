@@ -64,9 +64,6 @@ body{
     color: #E02C6D;
     cursor: pointer;
 }
-.three-menu-bar{
-    display: none;
-}
 .button a{
     color: white;
     background-color: #E02C6D;
