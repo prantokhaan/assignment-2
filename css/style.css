@@ -219,6 +219,9 @@ body{
     color: #6C6C6C;
     line-height: 26px;
 }
+.highlights-info .button a:hover{
+    color: black;
+}
 .highlights-img img{
     width: 530px;
     height: 400px;
